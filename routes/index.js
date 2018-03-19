@@ -7,8 +7,7 @@ const bodyParser = require('body-parser')
 api.use(express.static('public'))
 
 api.get('/', (req, res) => {
-  console.log("eee")
-  res.send({message: `ee`})
+  res.render('./index')
 })
 
 module.exports = api
