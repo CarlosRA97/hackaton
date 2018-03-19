@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/CarlosRA97/hackaton/issues"
   },
-  "homepage": "https://github.com/CarlosRA97/hackaton#readme"
+  "homepage": "https://github.com/CarlosRA97/hackaton#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "pug": "^2.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.2"
+  }
 }
